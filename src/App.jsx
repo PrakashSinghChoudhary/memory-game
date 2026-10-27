@@ -17,6 +17,14 @@ function App() {
   const [matches, setMatches] = useState(0);
   const [resetCounter, setResetCounters] = useState(0);
 
+  const reInitializeGame = (size) => {
+    setGridSize(size);
+    setDeck(createNewDeck(size));
+    setMoves(0);
+    setMatches(0);
+    setResetCounter((prev) => prev + 1);
+  };
+
   return (
     <div>
       <h1 className="text-3xl font-bold text-center mb-4">
