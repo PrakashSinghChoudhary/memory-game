@@ -1,5 +1,3 @@
-// Lightweight, high-performance canvas confetti system without any external dependencies
-
 export function fireConfetti() {
   if (typeof window === "undefined") return;
 

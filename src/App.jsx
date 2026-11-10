@@ -295,7 +295,7 @@ function App() {
         />
 
         {/* The Game Board */}
-        <div className="flex-1 flex items-center justify-center min-h-[360px] sm:min-h-[440px] my-3">
+        <div className="flex-1 flex items-center justify-center min-h-[380px] sm:min-h-[480px] my-3">
           <GameBoard
             cards={cards}
             gridSize={gridSize}

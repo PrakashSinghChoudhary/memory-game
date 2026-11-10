@@ -4,12 +4,12 @@ const GameBoard = ({ cards, gridSize, onCardClick, lockBoard }) => {
   // Determine optimal grid classes and sizing
   const gridClasses =
     gridSize === 4
-      ? "grid-cols-4 max-w-md"
+      ? "grid-cols-4 max-w-lg"
       : gridSize === 6
-        ? "grid-cols-6 max-w-xl"
-        : "grid-cols-8 max-w-2xl";
+        ? "grid-cols-6 max-w-2xl"
+        : "grid-cols-8 max-w-3xl";
 
-  const gapClasses = gridSize === 8 ? "gap-1.5 sm:gap-2" : "gap-2 sm:gap-3";
+  const gapClasses = gridSize === 8 ? "gap-1.5 sm:gap-2" : "gap-2.5 sm:gap-3.5";
 
   return (
     <div className="w-full flex items-center justify-center my-auto py-2">
