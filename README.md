@@ -2,6 +2,11 @@
 
 A sleek, responsive, and tactile card-matching game designed to test and sharpen your visual recall. Flip cards to reveal emojis, find matching pairs, track your personal bests, and celebrate victories with custom confetti!
 
+[Play Memory Game](https://memory-game.singhprakashchoudhary.workers.dev/)
+
+![Memory Game Demo](./public/memory-game-demo.gif)
+
+
 ---
 
 ## ✨ Features
